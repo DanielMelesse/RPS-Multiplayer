@@ -1,0 +1,31 @@
+.container {
+    background-color: rgb(96, 158, 148);
+    border: 20 10 
+}
+
+.inputgroup {
+    text-align: center;
+    width: 30%;
+    margin-left: 30%;
+}
+
+.totalScore {
+    width: 15%;
+    height: 180px;
+    background: rgb(123, 163, 156);
+    float: left;
+    margin-bottom: 10px;
+}
+
+
+.playerTwo, .playerOne {
+    float: left;
+    width: 40%;
+    height: 180px;
+    background: rgb(96, 158, 148);
+    margin-bottom: 10px;
+}
+
+h4, h3 {
+    text-align: center
+}

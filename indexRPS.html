@@ -1,18 +1,50 @@
 <html>
-    <head>
-        <title>Tiriva game</title>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-        <!-- <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-            <script type="text/javascript" src="/path/to/jquery.countdown.js"></script> -->
-        <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> -->
-        <!-- Bootstrap CSS -->
-    
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-    
-        <!-- Optional theme -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css">
-    
-        <script src="javascript/app.js"></script>
-        <link rel="stylesheet" href="css/styles.css">
-    </head>
+
+<head>
+    <title>Tiriva game</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/4.10.1/firebase.js"></script>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css">
+
+    <script src="assets/javascript/appRPS.js"></script>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <br>
+        <!-- Jumbotron -->
+
+        <h1 class="text-center"> Rock Paper Scisors!</h1>
+        <div class="inputgroup">
+            <div class="input-group-prepend">
+                <input type="text" class="form-control" placeholder="Player Name" aria-label="" aria-describedby="basic-addon1">
+                <button class="startGame" type="button">Start Game </button>
+            </div>
+        </div>
+        <div class="playerOne">
+            <h4 id="playone"> Player One </h4> 
+            <button type="button" class="btn btn-link"> <h3>Rock</h3> </button>
+             <button type="button" class="btn btn-link"> <h3>Paper</h3> </button> 
+             <button type="button" class="btn btn-link"> <h3>Scisors</h3> </button>
+           
+        </div>
+        <div class="totalScore">
+                <h4> Total Score</h4> 
+                <h3>wins</h3>
+                <h3>lost</h3>
+        </div>
+        <div class="playerTwo">
+                <h4> Player Two </h4> 
+                <button type="button" class="btn btn-link"> <h3>Rock</h3> </button>
+                 <button type="button" class="btn btn-link"> <h3>Paper</h3> </button> 
+                 <button type="button" class="btn btn-link"> <h3>Scisors</h3> </button>
+        </div>
+    </div>
+</body>
+
 </html>
